@@ -1,0 +1,140 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #18191a;
+  color: #ffffff;
+}
+
+.container {
+  display: flex;
+}
+
+header {
+  background-color: #3b5998;
+  color: #ffffff;
+  border: 2px solid #2e3c4e;
+  padding: 5px;
+}
+header h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+header:hover {
+  background-color: #2e3c4e;
+}
+
+nav {
+  border: 2px solid #2e3c4e;
+  background-color: #242526;
+  padding: 10px;
+}
+
+nav a {
+  display: inline;
+  text-decoration: none;
+  color: #ffffff;
+  transition: 0.5s;
+  margin: 10px;
+  margin-left: 15px;
+}
+nav a:hover {
+  background-color: #3b5998;
+}
+
+article h1 {
+  text-align: center;
+}
+article:hover {
+  background-color: #2e3c4e;
+}
+
+.wrap {
+  flex: 1;
+  float: left;
+  border: 2px solid #2e3c4e;
+  width: 900px;
+  background-color: #242526;
+  padding: 10px;
+}
+.wrap:hover {
+  background-color: #2e3c4e;
+}
+
+.content {
+  flex: 1;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #2e3c4e;
+  background-color: #18191a;
+}
+.content:hover {
+  background-color: #242526;
+}
+
+.color-example h3 {
+  color: #1877f2;
+}
+.color-example:hover {
+  background-color: #2e3c4e;
+}
+
+.typography-example p {
+  font-family: "Georgia", serif;
+  font-size: 20px;
+  text-align: right;
+  line-height: 1.6;
+}
+.typography-example:hover {
+  background-color: #2e3c4e;
+}
+
+#uniqueDiv {
+  background-color: #3b5998;
+  font-size: 18px;
+}
+#uniqueDiv:hover {
+  background-color: #2e3c4e;
+}
+
+.info {
+  border: 2px solid #2e7d32;
+  padding: 10px;
+}
+.info:hover {
+  background-color: #4caf50;
+}
+hr {
+  border-color: #3b3c3d;
+}
+
+.rightcontents {
+  text-align: justify;
+  float: right;
+  background-color: #18191a;
+  width: 300px;
+  color: #ffffff;
+  border: 2px solid #2e3c4e;
+  border-right: 4px solid #2e3c4e;
+}
+.rightcontents h2 {
+  margin: 15px;
+}
+.rightcontents p {
+  text-indent: 20px;
+  margin: 15px;
+}
+.rightcontents:hover {
+  background-color: #2e3c4e;
+}
+
+footer {
+  border: 2px solid #2e3c4e;
+  background-color: #242526;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+}
+footer:hover {
+  background-color: #2e3c4e;
+}
